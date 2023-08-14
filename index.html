@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center my-3">Rock Paper Scissors</h1>
+    </header>
+
+    <div class="choices row">
+        <div class="choice" id="r">
+            <img src="img/rock.jpg" class="img-fluid rounded-circle" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="img/paper.jpg" class="img-fluid rounded-circle" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="img/scissors.jpg" class="img-fluid rounded-circle" alt="">
+        </div> 
+    </div>
+
+    <div class="scoreboard">
+        <div id="user-label" class="player">User</div>
+        <div id="comp-label" class="player">Computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    </div>
+    <div class="statement">
+        <p>Are you Ready?</p>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

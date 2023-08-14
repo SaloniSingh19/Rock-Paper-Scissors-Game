@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: magenta;
+    text-shadow: 1px 2px grey;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.choices {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.choice img {
+    align-content: center;
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.choice {
+    display: flex;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 10px 20px;
+
+}
+
+.win {
+    border: 5px solid green;
+    box-shadow: 0 0 10px darkgreen;
+}
+
+.win:hover {
+    background: green;
+}
+
+.lose {
+    border: 5px solid red;
+}
+
+.draw {
+    border: 5px solid grey;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.scoreboard {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px 20px;
+    width: 350px;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.player {
+    border: 2px solid white;
+    background: grey;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 0;
+    padding: 0 5px;
+}
+
+#user-label {
+    position: absolute;
+    top: 70px;
+    left: -30px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 70px;
+    right: -50px;
+}
+
+.statement {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
